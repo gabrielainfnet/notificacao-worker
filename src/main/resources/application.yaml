@@ -1,0 +1,8 @@
+app:
+  myport: ${PORT:0}
+server:
+  port: ${app.myport}
+
+spring:
+  application:
+    name: notificacao-worker
